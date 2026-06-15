@@ -76,8 +76,13 @@ latest release. The main script file is `redoflacs` (a single Bash script).
 example:
 
    ```bash
-   $ cp redoflacs /usr/local/bin/redoflacs
+   $ git clone https://github.com/KATT07/redoflacs-with-binaries
+   $ cp ./redoflacs-with-binaries/redoflacs /usr/local/bin
+   $ cp ./redoflacs-with-binaries/auCDtect /usr/local/bin
+   $ cp ./redoflacs-with-binaries/LAC /usr/local/bin
    $ chmod +x /usr/local/bin/redoflacs
+   $ chmod +x /usr/local/bin/auCDtect
+   $ chmod +x /usr/local/bin/LAC
    ```
 
 3. **Configuration (optional):** On first run, `redoflacs` will create a
